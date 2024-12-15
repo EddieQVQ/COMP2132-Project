@@ -1,0 +1,22 @@
+[
+    { "word": "debug", "hint": "A process of finding and fixing errors in code" },
+    { "word": "router", "hint": "A networking device that forwards data packets" },
+    { "word": "python", "hint": "A popular programming language named after a snake" },
+    { "word": "binary", "hint": "A number system that uses 0s and 1s" },
+    { "word": "script", "hint": "A series of commands executed by a program" },
+    { "word": "server", "hint": "A computer that provides data to other computers" },
+    { "word": "docker", "hint": "A tool used to containerize applications" },
+    { "word": "cloud", "hint": "Remote servers accessed over the Internet" },
+    { "word": "github", "hint": "A platform for hosting and sharing code repositories" },
+    { "word": "syntax", "hint": "The set of rules defining the structure of code" },
+    { "word": "apple", "hint": "A tech company known for iPhones and Macs" },
+    { "word": "google", "hint": "A company famous for its search engine and Android" },
+    { "word": "system", "hint": "A set of interconnected parts working together" },
+    { "word": "lambda", "hint": "A term often used for anonymous functions" },
+    { "word": "array", "hint": "A data structure that holds multiple values" },
+    { "word": "access", "hint": "Permission to use or retrieve data" },
+    { "word": "object", "hint": "An instance of a class in programming" },
+    { "word": "packet", "hint": "A formatted unit of data in networking" },
+    { "word": "docker", "hint": "A tool used to containerize applications" },
+    { "word": "select", "hint": "An SQL command to retrieve data" }
+]

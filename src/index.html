@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMP2132 'Hangman'</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script defer src="../js/script.js"></script>
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>COMP2132 'Hangman'</h1>
+        </div>
+        <div class="hangman-image">
+            <img id="hangmanImage" src="../images/hangman1.jpeg" alt="Hangman Image">
+        </div>
+        <div class="game-area-container">
+            <div class="game-area">
+                <div class="word-display" id="wordDisplay">_ _ _ _ _</div>
+                <div class="hint" id="hintDisplay">Hint: a small creature</div>
+                <div class="incorrect-guesses" id="incorrectDisplay">Incorrect guesses: 0/7</div>
+                <div class="keyboard" id="keyboard"></div>
+                <div class="instructions">
+                    Guess a letter from the mystery word... you have a limited number of chances to guess the entire word. Unfortunately, Kenny McCormick will suffer the consequences for each wrong guess.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="winMessage" class="game-over-container" style="display: none;">
+        <img src="../images/hangman2.gif" alt="Winning Gif" class="winning-gif">
+        <h2>YOU WON!</h2>
+        <p id="correctWordMessage"></p>
+        <button id="playAgainWinButton">Play Again</button>
+    </div>
+    <audio id="winAudio" src="../audio/tom-happy.mp3"></audio>
+
+    <div id="loseMessage" class="game-over-container" style="display: none;">
+        <img src="../images/hangman7.gif" alt="Losing Gif" class="losing-gif">
+        <h2>YOU LOST!</h2>
+        <p id="revealWordMessage"></p>
+        <button id="playAgainLoseButton">Play Again</button>
+    </div>
+    <audio id="wrongGuessAudio" src="../audio/toms-screams.mp3"></audio>
+</body>
+</html>
